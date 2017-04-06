@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Banking Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href= "validation.css">
+</head>
+		<body>
+			<h3>Please fill out the informaiton below</h3>
+			<form>
+			<p>Applicant's Name:</p>
+					<input type="text" name="firstname" value="First Name">
+					<input type="text" name="middlename" value="Middle Initial">
+					<input type="text" name="lastname" value="Last Name">
+				<br>
+				
+				<p>Home Address:</p>
+					<input type="text" name="address1" value="House Number">
+					<input type="text" name="address2" value="Street Name">
+					<input type="text" name="address3" value="City">
+					<input type="text" name="address4" value="State">
+					<input type="text" name="address5" value="Zip Code">
+				<br>
+				
+				<p>Employment Infomration:</p>
+					<input type="text" name="occupation" value="Applicant's occupation">
+					<input type="text" name="employer" value="Applicant's employer">
+				<br>
+					<input type="text" name="amount" value="Requested Amout of Loan">
+				<br>
+				
+				<p>Lenght of Loan:</p>
+					  <input type="radio" name="length" value="five" checked> 5 Year<br>
+					  <input type="radio" name="length" value="fifteen"> 15 Year <br>
+					  <input type="radio" name="length" value="thirty"> 30 Year <br>
+				<p>Special Conditions</p>
+					<input type="checkbox" name="conditions" value="payment">I have a down payment.<br>
+					<input type="checkbox" name="conditions" value="resident">I am an out of state resident.<br>
+					<input type="checkbox" name="conditions" value="married">Married.<br>
+					<input type="checkbox" name="conditions" value="cosign">Loan will be co-signed<br>
+                <p>Additional Comments</p>
+					<textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+				<br>
+				<p>Email:</p>
+					<input type="email" id= "email" name="email">
+				<p>Telephone Number:</p>
+					<input type="text" name="telephone">
+				<p>LinkedIn URL:</p>
+					<input type="URLxs" id= "linkedin" name="linkedin">
+                <br>
+					<input type="submit" id="button" value="Submit">
+			</form>
+		<footer>&copy;, Big Bank, USA</footer>
+		</body>
+</html>
